@@ -1,0 +1,23 @@
+{
+    "name": "numbervine/yii2-bitpay",
+    "description": "A plugin to integrate Bitpay client with your yii2 application",
+    "keywords": ["yii2", "extension", "widget", "module", "bitpay", "client", "plugin", "bitcoin", "invoice"],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Thomas Varghese",
+            "email": "numbervine.public@gmail.com"
+        }
+    ],
+    "require": {
+      "bitpay/php-client": "*",
+      "numbervine/yii2-sweetalert2": "*"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "numbervine\\bitpay\\": ""
+        }
+    }
+}
